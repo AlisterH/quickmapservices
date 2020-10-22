@@ -165,4 +165,3 @@ def add_layer_to_map(ds):
                 if hasattr(iface.mapCanvas(), "setCrsTransformEnabled"):
                     # Need for QGIS2. In QGIS3 CRS transformation is always enabled
                     iface.mapCanvas().setCrsTransformEnabled(True)
-                iface.mapCanvas().setDestinationCrs(TileLayer.CRS_3857)
